@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter/Inter-VariableFont_slnt,wght.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+body {
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    /* justify-content: space-between; */
+    background-color: #4C864A !important;
+    height: 241px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.5px;
+    line-height: 39px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content a {
+
+    margin-top: 324px;
+}
+
+.content a:hover {
+    cursor: pointer;
+}
+
+.content a button, .content form button {
+    width: 260px;
+    height: 58.04px;
+
+
+    background: #F5F5F5;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #4C864A;
+    border: none;
+}
+
+.content form {
+    margin-top: 314px;
+}
+
+.content form label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #2F2F2F;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.content form input {
+    background: #EEF3ED;
+    border-radius: 10px;
+    height: 46px;
+    padding-left: 10px;
+    width: 257px;
+    border: none;
+}
+
+.content form imput::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 183% */
+
+
+    color: #2F2F2F;
+}
+
+.content form button {
+    margin-top: 168px;
+}
+
+.password-div {
+    position: relative;
+}
+
+.password-div svg {
+    position: absolute;
+    top: 43px;
+    right: 13px;
+}
+
+.password-div svg:hover {
+    cursor: pointer;
+}
